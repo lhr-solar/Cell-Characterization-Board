@@ -1,0 +1,23 @@
+Circuit: * C:\Users\krets\Documents\DevinPCB\Boards\Cell-Characterization-Board\LTSpice\CurrentSetCircuit.asc
+
+Limiting rise time of source v2 to 1e-005
+Limiting fall time of source v2 to 1e-005
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Feb 15 11:32:10 2025
+Total elapsed time: 0.093 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2512
+traniter = 2482
+tranpoints = 783
+accept = 595
+rejected = 188
+matrix size = 117
+fillins = 80
+solver = Normal
+Matrix Compiler1: 6.70 KB object code size  1.4/0.4/[0.4]
+Matrix Compiler2: off  [0.4]/0.8/0.4
+
