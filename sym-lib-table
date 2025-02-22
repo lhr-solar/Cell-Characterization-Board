@@ -14,4 +14,5 @@
   (lib (name "MCP3304-CI_SL")(type "KiCad")(uri "${KIPRJMOD}/External Components/MCP3304-CI_SL/MCP3304-CI_SL.kicad_sym")(options "")(descr ""))
   (lib (name "INA4180A2IPWR")(type "KiCad")(uri "${KIPRJMOD}/External Components/INA4180A2IPWR/INA4180A2IPWR.kicad_sym")(options "")(descr ""))
   (lib (name "NCV8165ML330TCG")(type "KiCad")(uri "${KIPRJMOD}/External Components/NCV8165ML330TCG/NCV8165ML330TCG.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-02-22_18-32-49")(type "KiCad")(uri "${KIPRJMOD}/External Components/MAX14611ETD_T/2025-02-22_18-32-49.kicad_sym")(options "")(descr ""))
 )

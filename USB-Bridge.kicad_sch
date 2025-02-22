@@ -2194,7 +2194,6 @@
 	)
 	(label "DTR"
 		(at 183.515 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2205,7 +2204,6 @@
 	)
 	(label "DTR"
 		(at 225.425 70.485 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2216,7 +2214,6 @@
 	)
 	(label "RTS"
 		(at 183.515 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2227,7 +2224,6 @@
 	)
 	(label "RTS"
 		(at 225.425 83.185 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2415,7 +2411,6 @@
 	(hierarchical_label "UART_RXD"
 		(shape output)
 		(at 178.435 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2427,7 +2422,6 @@
 	(hierarchical_label "UART_TXD"
 		(shape output)
 		(at 178.435 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2439,7 +2433,6 @@
 	(hierarchical_label "ESP_EN"
 		(shape input)
 		(at 249.555 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2451,7 +2444,6 @@
 	(hierarchical_label "GPIO0"
 		(shape output)
 		(at 249.555 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2463,7 +2455,6 @@
 	(hierarchical_label "MICRO_USB_5V"
 		(shape output)
 		(at 104.775 78.105 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3279,7 +3270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a62bd244-2398-48eb-a026-3a1349d92f4d")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0107"
 			(at 117.475 101.6 0)
 			(effects
 				(font
@@ -3329,7 +3320,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "#PWR038")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
