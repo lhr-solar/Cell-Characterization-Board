@@ -2883,7 +2883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5482944e-06a5-4a9d-b390-e667733bacb8")
-		(property "Reference" "R16"
+		(property "Reference" "R56"
 			(at 179.07 132.08 90)
 			(effects
 				(font
@@ -2935,7 +2935,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "R16")
+					(reference "R56")
 					(unit 1)
 				)
 			)
