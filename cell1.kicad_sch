@@ -3367,7 +3367,7 @@
 	)
 	(hierarchical_label "Batt-"
 		(shape input)
-		(at 238.125 126.365 0)
+		(at 238.125 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3444,7 +3444,7 @@
 	)
 	(hierarchical_label "Batt+"
 		(shape input)
-		(at 238.125 146.05 0)
+		(at 238.125 126.365 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -3143,6 +3143,12 @@
 		(uuid "b5be1aa7-3ff5-43f3-a81f-12ed1795fd23")
 	)
 	(junction
+		(at 22.225 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bab7fc28-b46c-49e4-a74e-55de89eb41cb")
+	)
+	(junction
 		(at 107.95 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3413,6 +3419,16 @@
 			(type default)
 		)
 		(uuid "151dd312-ebd9-40c8-bdea-d0af5bf2d0a0")
+	)
+	(wire
+		(pts
+			(xy 22.225 91.44) (xy 18.415 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1763c8d0-0d3a-4fac-8f78-174d8b762670")
 	)
 	(wire
 		(pts
@@ -3993,6 +4009,16 @@
 			(type default)
 		)
 		(uuid "8b38c6f1-f5ec-44f6-8cb7-15435bff7efe")
+	)
+	(wire
+		(pts
+			(xy 18.415 91.44) (xy 18.415 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b51f6c4-5751-49bd-8179-cb00c89b6e70")
 	)
 	(wire
 		(pts
@@ -12708,6 +12734,142 @@
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 18.415 100.965 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b6e6e74-2da3-4d94-bfdf-79d184c55698")
+		(property "Reference" "#PWR092"
+			(at 18.415 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 18.415 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 18.415 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 18.415 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 18.415 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76beb26e-0052-4aab-b1b8-08e865f9a860")
+		)
+		(instances
+			(project ""
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 18.415 97.155 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "a129a02c-6310-4158-805c-23f5de8b1bb9")
+		(property "Reference" "R68"
+			(at 20.32 95.8849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_US"
+			(at 20.32 98.4249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.399 96.901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 18.415 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 18.415 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a5b739d-aa82-4f73-ac80-daf125e5021d")
+		)
+		(pin "2"
+			(uuid "a712bbe6-0934-4ec3-b589-b22545265986")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935"
+					(reference "R68")
 					(unit 1)
 				)
 			)
