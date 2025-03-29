@@ -8283,7 +8283,6 @@
 	)
 	(label "VBUS_OUT"
 		(at 196.85 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8294,7 +8293,6 @@
 	)
 	(label "VBUS_OUT"
 		(at 123.19 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8305,7 +8303,6 @@
 	)
 	(label "ISNK_COARSE"
 		(at 129.54 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8316,7 +8313,6 @@
 	)
 	(label "VBUS_IN"
 		(at 121.92 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8327,7 +8323,6 @@
 	)
 	(label "VBUS_FET_EN"
 		(at 161.29 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8338,7 +8333,6 @@
 	)
 	(label "ISNK_FINE"
 		(at 109.22 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8349,7 +8343,6 @@
 	)
 	(label "VBUS_OUT"
 		(at 60.96 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8360,7 +8353,6 @@
 	)
 	(label "FAULT"
 		(at 191.77 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8371,7 +8363,6 @@
 	)
 	(label "SAFE_PWR_EN"
 		(at 161.29 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8382,7 +8373,6 @@
 	)
 	(label "VBUS_IN"
 		(at 214.63 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8393,7 +8383,6 @@
 	)
 	(label "VBUS_IN"
 		(at 106.68 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8404,7 +8393,6 @@
 	)
 	(label "VBUS_MIN"
 		(at 165.1 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8415,7 +8403,6 @@
 	)
 	(label "VBUS_IN"
 		(at 106.68 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8426,7 +8413,6 @@
 	)
 	(label "VBUS_MAX"
 		(at 73.66 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8437,7 +8423,6 @@
 	)
 	(label "ISNK_FINE"
 		(at 163.83 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8448,7 +8433,6 @@
 	)
 	(label "VBUS_MIN"
 		(at 91.44 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8459,7 +8443,6 @@
 	)
 	(label "VBUS_IN"
 		(at 123.19 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8470,7 +8453,6 @@
 	)
 	(label "VBUS_OUT"
 		(at 97.79 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8481,7 +8463,6 @@
 	)
 	(label "ISNK_COARSE"
 		(at 161.29 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8492,7 +8473,6 @@
 	)
 	(label "VBUS_FET_EN"
 		(at 106.68 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8503,7 +8483,6 @@
 	)
 	(label "VBUS_MAX"
 		(at 165.1 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8514,7 +8493,6 @@
 	)
 	(label "VBUS_IN"
 		(at 83.82 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8525,7 +8503,6 @@
 	)
 	(label "SAFE_PWR_EN"
 		(at 106.68 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8537,7 +8514,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 214.63 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8549,7 +8525,6 @@
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 204.47 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8561,7 +8536,6 @@
 	(hierarchical_label "SAFE_5V"
 		(shape output)
 		(at 121.92 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8573,7 +8547,6 @@
 	(hierarchical_label "INT"
 		(shape input)
 		(at 181.61 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8585,7 +8558,6 @@
 	(hierarchical_label "5V"
 		(shape output)
 		(at 38.1 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8597,7 +8569,6 @@
 	(hierarchical_label "3V3"
 		(shape output)
 		(at 92.71 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8609,7 +8580,6 @@
 	(hierarchical_label "5V_USB"
 		(shape input)
 		(at 31.115 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8621,7 +8591,6 @@
 	(hierarchical_label "5V_USB"
 		(shape input)
 		(at 37.465 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
