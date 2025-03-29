@@ -1466,12 +1466,6 @@
 		(uuid "2be735e4-3715-4abc-868f-aaea284d2270")
 	)
 	(junction
-		(at 217.17 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5789ac0e-bcb9-4b59-b659-3bf93a11ecd5")
-	)
-	(junction
 		(at 200.66 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1512,6 +1506,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ebf5e43-a3cc-41b0-b510-72a789c77bee")
+	)
+	(junction
+		(at 217.17 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9033f24d-b917-4a3e-9655-1949df354a70")
 	)
 	(junction
 		(at 163.83 125.73)
@@ -1943,16 +1943,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 133.35) (xy 227.33 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93467692-0aa3-4578-9537-cabdb68828ac")
-	)
-	(wire
-		(pts
 			(xy 199.39 142.24) (xy 205.74 142.24)
 		)
 		(stroke
@@ -2030,6 +2020,16 @@
 			(type default)
 		)
 		(uuid "c5e80b03-424f-4dfd-bf43-1b57b53e5839")
+	)
+	(wire
+		(pts
+			(xy 217.17 133.35) (xy 227.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8058831-a6c2-43d8-8d93-b73071d539ff")
 	)
 	(wire
 		(pts
@@ -2173,6 +2173,7 @@
 	)
 	(label "ADJ"
 		(at 113.03 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2183,6 +2184,7 @@
 	)
 	(label "ISEN"
 		(at 149.86 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2193,6 +2195,7 @@
 	)
 	(label "FB"
 		(at 113.03 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2203,6 +2206,7 @@
 	)
 	(label "PGATE"
 		(at 149.86 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2213,6 +2217,7 @@
 	)
 	(label "ISEN"
 		(at 153.67 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2223,6 +2228,7 @@
 	)
 	(label "FB"
 		(at 180.34 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2233,6 +2239,7 @@
 	)
 	(label "PGATE"
 		(at 153.67 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2243,6 +2250,7 @@
 	)
 	(label "ADJ"
 		(at 149.86 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2254,6 +2262,7 @@
 	(hierarchical_label "BUCK_VIN"
 		(shape input)
 		(at 204.47 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2265,6 +2274,7 @@
 	(hierarchical_label "BUCK_VOUT"
 		(shape output)
 		(at 227.33 133.35 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2276,6 +2286,7 @@
 	(hierarchical_label "BUCK_VIN"
 		(shape input)
 		(at 100.33 80.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2287,6 +2298,7 @@
 	(hierarchical_label "BUCK_GND"
 		(shape input)
 		(at 111.76 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2305,7 +2317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "084a70e1-786b-4b45-a2c4-a9768a33b568")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR085"
 			(at 114.3 102.87 0)
 			(effects
 				(font
@@ -2355,7 +2367,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "#PWR029")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -2371,7 +2383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b7a2e18-f79e-4fca-a548-6a8c00063174")
-		(property "Reference" "C10"
+		(property "Reference" "C31"
 			(at 160.02 96.52 90)
 			(effects
 				(font
@@ -2423,7 +2435,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "C10")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -2439,7 +2451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fd47f2d-1a71-49ec-8c7d-6bac05a12606")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR086"
 			(at 163.83 158.75 0)
 			(effects
 				(font
@@ -2489,7 +2501,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "#PWR033")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -2505,7 +2517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2482205b-185a-40be-a684-4894579503ba")
-		(property "Reference" "C12"
+		(property "Reference" "C35"
 			(at 194.31 130.81 90)
 			(effects
 				(font
@@ -2557,7 +2569,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "C12")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2573,7 +2585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "282e7794-a118-41ce-ae3d-bdc1c5fc5e43")
-		(property "Reference" "Q3"
+		(property "Reference" "Q12"
 			(at 167.64 133.3501 0)
 			(effects
 				(font
@@ -2657,7 +2669,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "Q3")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -2673,7 +2685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a861aae-23ab-45c6-9c15-a207dc7d6ac4")
-		(property "Reference" "R18"
+		(property "Reference" "R55"
 			(at 208.28 147.3199 0)
 			(effects
 				(font
@@ -2727,7 +2739,77 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "R18")
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 217.17 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c92926b-a02a-45ff-9859-72168f82b09a")
+		(property "Reference" "C37"
+			(at 220.98 135.2549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 220.98 137.7949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c70787a4-73ba-469c-b81e-193d018dfe03")
+		)
+		(pin "2"
+			(uuid "e31b0d59-91d7-426d-9c69-28c44e29499e")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -2743,7 +2825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4caeb25b-f286-4aa3-97bc-278e6623f9bf")
-		(property "Reference" "R17"
+		(property "Reference" "R54"
 			(at 208.28 135.8899 0)
 			(effects
 				(font
@@ -2797,7 +2879,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "R17")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -2813,7 +2895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50320d88-ee2a-45bd-bd27-383f948c4761")
-		(property "Reference" "R13"
+		(property "Reference" "R50"
 			(at 104.14 82.5499 0)
 			(effects
 				(font
@@ -2867,7 +2949,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "R13")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -2883,7 +2965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5482944e-06a5-4a9d-b390-e667733bacb8")
-		(property "Reference" "R56"
+		(property "Reference" "R53"
 			(at 179.07 132.08 90)
 			(effects
 				(font
@@ -2935,7 +3017,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "R56")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -2951,7 +3033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71934170-6e2b-4c22-91cc-3491b7937874")
-		(property "Reference" "C9"
+		(property "Reference" "C32"
 			(at 180.34 76.8349 0)
 			(effects
 				(font
@@ -3005,7 +3087,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "C9")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -3021,7 +3103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d571f95-8053-4eb6-bee7-9c5dd16402b3")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR087"
 			(at 191.77 87.63 0)
 			(effects
 				(font
@@ -3071,7 +3153,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "#PWR031")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -3087,7 +3169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c5b411b-98eb-452c-8845-4dfcdec16c08")
-		(property "Reference" "R14"
+		(property "Reference" "R51"
 			(at 160.02 107.95 90)
 			(effects
 				(font
@@ -3139,7 +3221,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "R14")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -3155,7 +3237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c82f1a8-473e-4f82-ad41-045476b015e8")
-		(property "Reference" "IC3"
+		(property "Reference" "IC5"
 			(at 132.08 78.74 0)
 			(effects
 				(font
@@ -3280,7 +3362,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "IC3")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -3296,7 +3378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "913a3bb4-a1ea-4e80-b6c4-31d8e64e15e3")
-		(property "Reference" "C11"
+		(property "Reference" "C33"
 			(at 190.5 143.5099 0)
 			(effects
 				(font
@@ -3350,7 +3432,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "C11")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -3366,7 +3448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92cca562-54bc-4859-b424-4e3e04d01ebb")
-		(property "Reference" "C8"
+		(property "Reference" "C34"
 			(at 195.58 73.6599 0)
 			(effects
 				(font
@@ -3420,7 +3502,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "C8")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -3436,7 +3518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ea379bc-43f2-4ba0-845c-e1f6386cf936")
-		(property "Reference" "D1"
+		(property "Reference" "D13"
 			(at 166.37 144.4624 90)
 			(effects
 				(font
@@ -3490,7 +3572,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "D1")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -3565,76 +3647,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 217.17 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf88fa16-69f7-416a-84d8-f438b0ac6cc1")
-		(property "Reference" "C13"
-			(at 220.98 135.2549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 220.98 137.7949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 217.17 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bd4c974-64f0-456a-b616-b921f37f5f47")
-		)
-		(pin "2"
-			(uuid "d84af0f6-0e77-46d2-87b3-341e7a6b35b3")
-		)
-		(instances
-			(project "Cell-Characterization-Board"
-				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 201.93 81.28 0)
 		(unit 1)
@@ -3644,7 +3656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf997ef1-f2ef-409a-b8cd-a9a25bc86c37")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR088"
 			(at 201.93 87.63 0)
 			(effects
 				(font
@@ -3694,7 +3706,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "#PWR030")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -3710,7 +3722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd0a20c5-4a8a-4e3d-85b9-184facef80e3")
-		(property "Reference" "C7"
+		(property "Reference" "C36"
 			(at 205.74 73.0249 0)
 			(effects
 				(font
@@ -3764,7 +3776,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "C7")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -3780,7 +3792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4e14df2-ed67-42f3-be6f-e7e6b64b15b1")
-		(property "Reference" "R15"
+		(property "Reference" "R52"
 			(at 166.37 119.3799 0)
 			(effects
 				(font
@@ -3834,7 +3846,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "R15")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -3850,7 +3862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc21b9f4-1ab6-4cf2-b7ee-c744e67710ae")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR089"
 			(at 212.09 161.29 0)
 			(effects
 				(font
@@ -3900,7 +3912,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935/6dd76b9e-36b5-4388-b4ca-2270a7f63132"
-					(reference "#PWR0104")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)

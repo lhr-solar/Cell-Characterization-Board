@@ -1699,12 +1699,6 @@
 		(uuid "024453f5-4aab-417c-8e00-fd1b900adb23")
 	)
 	(junction
-		(at 128.905 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "042309b2-db9d-49ab-bd54-b3d8139def7b")
-	)
-	(junction
 		(at 160.655 56.515)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1729,12 +1723,6 @@
 		(uuid "543e7a0d-4b99-428a-96a7-1004ca7c1b22")
 	)
 	(junction
-		(at 130.175 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62603a12-491a-44d7-b6f3-37141fb7a046")
-	)
-	(junction
 		(at 164.465 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1750,13 +1738,25 @@
 		(at 160.655 45.085)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b19283af-c463-4b16-93e4-e0406744661e")
+		(uuid "a5fd9259-fc23-4b7f-b35c-5ef0fbc7d22b")
+	)
+	(junction
+		(at 130.175 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1f87ccd-bd66-40f5-a410-b1b9a1c65ac9")
 	)
 	(junction
 		(at 117.475 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e279c7c0-eb15-4f6c-94eb-3d914e16a832")
+	)
+	(junction
+		(at 128.905 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eacc2cac-a03a-46f3-b031-6a1f406a89bf")
 	)
 	(no_connect
 		(at 178.435 77.47)
@@ -2114,6 +2114,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.905 87.63) (xy 147.955 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba1c6933-7378-4943-9d4e-819948eb0f62")
+	)
+	(wire
+		(pts
 			(xy 160.655 45.085) (xy 162.56 45.085)
 		)
 		(stroke
@@ -2194,16 +2204,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.905 87.63) (xy 147.955 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecc4a9d0-98b8-4515-a882-f9dbed04158c")
-	)
-	(wire
-		(pts
 			(xy 135.255 70.485) (xy 136.525 70.485)
 		)
 		(stroke
@@ -2214,6 +2214,7 @@
 	)
 	(label "DTR"
 		(at 183.515 80.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2224,6 +2225,7 @@
 	)
 	(label "DTR"
 		(at 225.425 70.485 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2234,6 +2236,7 @@
 	)
 	(label "RTS"
 		(at 183.515 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2244,6 +2247,7 @@
 	)
 	(label "RTS"
 		(at 225.425 83.185 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2431,6 +2435,7 @@
 	(hierarchical_label "UART_RXD"
 		(shape output)
 		(at 178.435 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2442,6 +2447,7 @@
 	(hierarchical_label "UART_TXD"
 		(shape output)
 		(at 178.435 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2453,6 +2459,7 @@
 	(hierarchical_label "ESP_EN"
 		(shape input)
 		(at 249.555 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2464,6 +2471,7 @@
 	(hierarchical_label "GPIO0"
 		(shape output)
 		(at 249.555 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2475,6 +2483,7 @@
 	(hierarchical_label "MICRO_USB_5V"
 		(shape output)
 		(at 104.775 78.105 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2482,6 +2491,75 @@
 			(justify left)
 		)
 		(uuid "bb40fee7-8c7f-400c-be4b-da5ffe16ef58")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 117.475 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a6f885c-b8b3-498c-ac7f-d6efcb7443b7")
+		(property "Reference" "C38"
+			(at 120.015 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 120.015 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.475 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.475 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 117.475 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "caefff6e-5d61-48cb-a461-c707bb3af231")
+		)
+		(pin "1"
+			(uuid "c790b1b1-4c46-4430-8c4c-5ea427261820")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -2492,8 +2570,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1de4b4e5-4eff-44b9-9c23-e62aff7c7222")
-		(property "Reference" "R17"
+		(uuid "28875a1a-d808-45cb-95e1-8780dd427dd8")
+		(property "Reference" "R57"
 			(at 130.81 90.1699 0)
 			(effects
 				(font
@@ -2539,15 +2617,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6872910f-837a-4144-90a8-78713e79c859")
+			(uuid "1a4efef1-3c48-440e-ab1b-5f7c409ea4c1")
 		)
 		(pin "1"
-			(uuid "38d7e342-b841-4cde-ae2e-05ab3d4d2d32")
+			(uuid "01440c5d-2877-4fb9-92b4-221475a11854")
 		)
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "R17")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -2563,7 +2641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a9fab11-705a-4ea0-85ff-e35001f94f60")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR092"
 			(at 128.905 101.6 0)
 			(effects
 				(font
@@ -2613,7 +2691,143 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "#PWR035")
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 111.125 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b506a62-fbfb-4ba8-9dfa-bb9c0b0f1a86")
+		(property "Reference" "R56"
+			(at 111.125 81.915 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22.1k"
+			(at 111.125 84.455 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.379 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.125 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 111.125 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "185e8a1c-9bd9-4414-85d5-7aa71f16671c")
+		)
+		(pin "1"
+			(uuid "05e42413-0265-444d-a68c-590fb6823299")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 156.845 45.085 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ae52dc5-6b6e-4c67-adb7-b71c96ac5b51")
+		(property "Reference" "C40"
+			(at 156.845 37.465 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 156.845 40.005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.655 44.1198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.845 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.845 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04e03e0b-613c-4a40-a306-f4094c2a0acd")
+		)
+		(pin "2"
+			(uuid "eb934aec-dfaa-4c16-b783-da3ce825cedc")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -2629,7 +2843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e1b5081-1c05-4a6d-bfdd-c6ab3890cc11")
-		(property "Reference" "Q4"
+		(property "Reference" "Q13"
 			(at 252.73 69.2149 0)
 			(effects
 				(font
@@ -2713,7 +2927,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "Q4")
+					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -2729,7 +2943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54789cc4-00e9-42f1-94e2-0b3e56043491")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR095"
 			(at 164.465 109.22 0)
 			(effects
 				(font
@@ -2779,7 +2993,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "#PWR0105")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -2795,7 +3009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dacbcf6-519d-4bbc-ac9d-4d9aabd0f698")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 165.3891 56.515 0)
 			(effects
 				(font
@@ -2937,7 +3151,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2945,24 +3159,23 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 111.125 87.63 90)
+		(at 130.175 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62308cbc-9749-4357-9efc-88db93c8ce54")
-		(property "Reference" "R18"
-			(at 111.125 81.915 90)
+		(uuid "60f27b7b-a2da-4970-a796-c2364a6a594c")
+		(property "Reference" "R58"
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22.1k"
-			(at 111.125 84.455 90)
+		(property "Value" "1k"
+			(at 134.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,7 +3183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.379 86.614 90)
+			(at 129.159 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2979,7 +3192,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.125 87.63 0)
+			(at 130.175 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,7 +3201,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 111.125 87.63 0)
+			(at 130.175 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2997,15 +3210,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6872910f-837a-4144-90a8-78713e79c85a")
+			(uuid "c62fa943-45ce-4270-95d6-85eaa40398d7")
 		)
 		(pin "1"
-			(uuid "38d7e342-b841-4cde-ae2e-05ab3d4d2d33")
+			(uuid "a8917809-1a6e-4201-8c67-ddab3b6225aa")
 		)
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "R18")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -3020,7 +3233,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75660a5a-bb87-4278-91f3-b036da062bbb")
-		(property "Reference" "R20"
+		(property "Reference" "R59"
 			(at 140.335 66.04 90)
 			(effects
 				(font
@@ -3072,7 +3285,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "R20")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -3088,7 +3301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92c50a5f-ade7-4900-b455-caf2769be348")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR094"
 			(at 148.59 62.865 0)
 			(effects
 				(font
@@ -3138,143 +3351,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 117.475 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9abdc5f3-7148-4cea-b413-3ed32fee63b8")
-		(property "Reference" "C18"
-			(at 120.015 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 120.015 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 117.475 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 117.475 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 117.475 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4a677f1e-a953-4e00-a0ee-7e5f199646a1")
-		)
-		(pin "1"
-			(uuid "b1f8828b-8a71-4f54-8fae-7f59fab31eb1")
-		)
-		(instances
-			(project "Cell-Characterization-Board"
-				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 130.175 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4f15b78-ffde-4bd3-913b-813bf896f2c3")
-		(property "Reference" "R19"
-			(at 134.62 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 134.62 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.159 60.706 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.175 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 130.175 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8dd64c87-e29d-4342-8510-0378573430a5")
-		)
-		(pin "1"
-			(uuid "ca49611e-af44-443b-9cf3-237bce281bd7")
-		)
-		(instances
-			(project "Cell-Characterization-Board"
-				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "R19")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -3290,7 +3367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a62bd244-2398-48eb-a026-3a1349d92f4d")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR091"
 			(at 117.475 101.6 0)
 			(effects
 				(font
@@ -3340,7 +3417,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "#PWR0107")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -3355,7 +3432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3f07206-8018-4c9c-b820-6200325959dc")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR093"
 			(at 135.255 78.105 0)
 			(effects
 				(font
@@ -3406,75 +3483,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 156.845 45.085 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b743f6b7-1f34-4f05-9d39-f7a97dbe7988")
-		(property "Reference" "C12"
-			(at 156.845 37.465 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 156.845 40.005 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.655 44.1198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.845 45.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 156.845 45.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e217dbf9-ff9e-4087-a6a5-ea80edaa77fd")
-		)
-		(pin "2"
-			(uuid "c2917612-a0c9-4843-94bc-115d704c0a80")
-		)
-		(instances
-			(project "Cell-Characterization-Board"
-				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "C12")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -3490,7 +3499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc587605-cd8b-4c5a-a5a2-b4d4e8c4806d")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR090"
 			(at 94.615 109.22 0)
 			(effects
 				(font
@@ -3540,7 +3549,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "#PWR034")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -3556,7 +3565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9023213-5267-417d-8d30-d54a8e339654")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 88.265 93.9801 0)
 			(effects
 				(font
@@ -3640,7 +3649,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3656,7 +3665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db697bab-7ef7-4c21-bb65-834673266c99")
-		(property "Reference" "Q5"
+		(property "Reference" "Q14"
 			(at 252.73 84.4551 0)
 			(effects
 				(font
@@ -3740,7 +3749,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "Q5")
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -3756,7 +3765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df2e8f23-303d-4cc6-8283-27beb0a4ddf3")
-		(property "Reference" "C13"
+		(property "Reference" "C41"
 			(at 156.845 48.895 90)
 			(effects
 				(font
@@ -3808,7 +3817,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "C13")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -3823,7 +3832,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2b0edf8-5396-459d-8fd3-52d24a59b0ad")
-		(property "Reference" "R24"
+		(property "Reference" "R61"
 			(at 236.22 78.74 90)
 			(effects
 				(font
@@ -3875,7 +3884,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "R24")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -3890,7 +3899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f70ff93d-d0de-4e97-97c1-8a3b3674f5b1")
-		(property "Reference" "R23"
+		(property "Reference" "R60"
 			(at 235.585 66.04 90)
 			(effects
 				(font
@@ -3942,7 +3951,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "R23")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -3957,7 +3966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8e723d3-fba8-437a-bd4f-3ef8e5b38346")
-		(property "Reference" "C19"
+		(property "Reference" "C39"
 			(at 132.715 66.04 0)
 			(effects
 				(font
@@ -4011,7 +4020,7 @@
 		(instances
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
-					(reference "C19")
+					(reference "C39")
 					(unit 1)
 				)
 			)
