@@ -5,6 +5,108 @@
 	(uuid "24289cc2-4043-4f89-95a4-f45b1a756567")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1699,6 +1801,18 @@
 		(uuid "024453f5-4aab-417c-8e00-fd1b900adb23")
 	)
 	(junction
+		(at 121.92 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1395313e-0ac7-498c-91fb-15aa95e6bd49")
+	)
+	(junction
+		(at 165.735 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fc6185c-4325-46ef-9c6d-c0770c3f2c41")
+	)
+	(junction
 		(at 160.655 56.515)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1739,6 +1853,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5fd9259-fc23-4b7f-b35c-5ef0fbc7d22b")
+	)
+	(junction
+		(at 160.655 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c38828c3-4d89-4639-9a4e-14edd3633c65")
 	)
 	(junction
 		(at 130.175 64.77)
@@ -1851,6 +1971,16 @@
 			(type default)
 		)
 		(uuid "15952118-f43c-422f-bb41-8c1b6d64e3f3")
+	)
+	(wire
+		(pts
+			(xy 121.92 87.63) (xy 128.905 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19222e87-4cbc-4fda-a1dd-606b2496eb2a")
 	)
 	(wire
 		(pts
@@ -2024,7 +2154,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.475 87.63) (xy 128.905 87.63)
+			(xy 117.475 87.63) (xy 121.92 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2054,7 +2184,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.655 45.085) (xy 160.655 56.515)
+			(xy 160.655 45.085) (xy 160.655 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2101,6 +2231,16 @@
 			(type default)
 		)
 		(uuid "a67b35d9-88a7-454e-b4a6-8a0ff6a7aacc")
+	)
+	(wire
+		(pts
+			(xy 160.655 50.8) (xy 160.655 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0c375b-c845-4c10-a064-72dfeb63848d")
 	)
 	(wire
 		(pts
@@ -2214,7 +2354,6 @@
 	)
 	(label "DTR"
 		(at 183.515 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2225,7 +2364,6 @@
 	)
 	(label "DTR"
 		(at 225.425 70.485 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2236,7 +2374,6 @@
 	)
 	(label "RTS"
 		(at 183.515 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2247,7 +2384,6 @@
 	)
 	(label "RTS"
 		(at 225.425 83.185 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2435,7 +2571,6 @@
 	(hierarchical_label "UART_RXD"
 		(shape output)
 		(at 178.435 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2447,7 +2582,6 @@
 	(hierarchical_label "UART_TXD"
 		(shape output)
 		(at 178.435 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2459,7 +2593,6 @@
 	(hierarchical_label "ESP_EN"
 		(shape input)
 		(at 249.555 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2471,7 +2604,6 @@
 	(hierarchical_label "GPIO0"
 		(shape output)
 		(at 249.555 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2483,7 +2615,6 @@
 	(hierarchical_label "MICRO_USB_5V"
 		(shape output)
 		(at 104.775 78.105 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3225,6 +3356,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 121.92 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6965b3e9-202e-4680-8191-1a5bca17c3ad")
+		(property "Reference" "TP17"
+			(at 124.46 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "uUSB_VBUS"
+			(at 124.46 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+			(at 127 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.92 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2d39514-f238-479f-85c7-7aaa3a8bbd25")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 140.335 70.485 270)
 		(unit 1)
@@ -3418,6 +3616,73 @@
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
 					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 165.735 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a81edeca-6284-41a0-acfc-e3eff7221869")
+		(property "Reference" "TP18"
+			(at 170.815 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "uUSB_GND"
+			(at 170.815 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+			(at 165.735 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.735 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 165.735 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1429b2bc-528c-455d-a202-061b3329a6c2")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -3952,6 +4217,73 @@
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
 					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 160.655 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f761075b-099f-4586-b960-df3d738dae17")
+		(property "Reference" "TP16"
+			(at 165.735 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB_3V3"
+			(at 165.735 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+			(at 160.655 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.655 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.655 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec5f403b-e104-4cdc-a1b9-95c851670057")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/0ac0e4f4-94aa-45a6-a3fd-2023984057ee"
+					(reference "TP16")
 					(unit 1)
 				)
 			)

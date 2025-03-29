@@ -404,6 +404,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2325,7 +2427,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U4"
+			(property "Reference" "U1"
 				(at 9.525 1.9051 0)
 				(effects
 					(font
@@ -2343,7 +2445,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ExternalFootprints:128x64OLED"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2392,35 +2494,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 2.54 8.89 270)
+				(pin power_in line
+					(at -6.35 8.89 270)
 					(length 2.54)
-					(name "SCL"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 8.89 270)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2438,7 +2522,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2446,17 +2530,35 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -6.35 8.89 270)
+				(pin input line
+					(at 2.54 8.89 270)
 					(length 2.54)
-					(name "GND"
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 8.89 270)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3069,10 +3171,10 @@
 		(uuid "3e78909b-b211-44fe-9b2a-a3e33a1d9156")
 	)
 	(junction
-		(at 72.39 170.18)
+		(at 74.93 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ec4f382-6e0e-4bfa-a5f4-a7684acfa428")
+		(uuid "7d638fc5-bf3d-47fc-8e5c-207c4b1d538b")
 	)
 	(junction
 		(at 49.53 49.53)
@@ -3558,7 +3660,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 166.37) (xy 72.39 170.18)
+			(xy 74.93 166.37) (xy 74.93 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3658,7 +3760,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 170.18) (xy 72.39 170.18)
+			(xy 63.5 170.18) (xy 74.93 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3675,16 +3777,6 @@
 			(type default)
 		)
 		(uuid "88ef1793-40b4-4d43-8b65-da342aed6251")
-	)
-	(wire
-		(pts
-			(xy 148.59 50.8) (xy 146.05 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f2f0ed-c8a2-44cc-9015-78c8f72add25")
 	)
 	(wire
 		(pts
@@ -3775,6 +3867,16 @@
 			(type default)
 		)
 		(uuid "a622b1ce-c93c-433c-aa41-d6763fdac78d")
+	)
+	(wire
+		(pts
+			(xy 75.565 170.18) (xy 74.93 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7dd852f-2e16-4461-ba17-f2d3a3bbefe0")
 	)
 	(wire
 		(pts
@@ -3935,6 +4037,16 @@
 			(type default)
 		)
 		(uuid "eeaf0b3c-9060-45a3-a87b-ba1dbb394b89")
+	)
+	(wire
+		(pts
+			(xy 146.05 50.8) (xy 148.59 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3fa5590-2594-43ed-8f7b-4948f5edbfb8")
 	)
 	(wire
 		(pts
@@ -6762,7 +6874,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4d68fb59-e549-4e47-a6a0-2baaa9d6afea")
 		(property "Reference" "#FLG01"
 			(at 69.215 166.37 0)
@@ -6774,7 +6885,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 71.12 166.3699 90)
+			(at 64.77 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7641,7 +7752,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 72.39 170.18 270)
+		(at 75.565 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7650,7 +7761,7 @@
 		(fields_autoplaced yes)
 		(uuid "a287b5f0-4717-4898-a126-d67140de8126")
 		(property "Reference" "#FLG02"
-			(at 74.295 170.18 0)
+			(at 77.47 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7659,7 +7770,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 76.2 170.1799 90)
+			(at 79.375 170.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,7 +7779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 170.18 0)
+			(at 75.565 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,7 +7788,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 170.18 0)
+			(at 75.565 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7686,7 +7797,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 72.39 170.18 0)
+			(at 75.565 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7761,13 +7872,13 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "3"
 			(uuid "f2029323-555d-48bc-aa63-a56d68c4dd97")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "2c9f15b7-2735-4986-8d8a-d065340e3f66")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "0816aeb1-4e5b-4926-972a-130ee96cb204")
 		)
 		(pin "1"
@@ -7854,7 +7965,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 72.39 166.37 0)
+		(at 74.93 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7862,7 +7973,7 @@
 		(dnp no)
 		(uuid "c4b27714-5e08-47ba-876e-1d9a2973ccab")
 		(property "Reference" "#PWR07"
-			(at 72.39 170.18 0)
+			(at 74.93 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,7 +7982,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 71.755 162.56 0)
+			(at 74.295 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7879,7 +7990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 166.37 0)
+			(at 74.93 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7888,7 +7999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 166.37 0)
+			(at 74.93 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7897,7 +8008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 72.39 166.37 0)
+			(at 74.93 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7912,6 +8023,72 @@
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cafbb6f8-f7dc-4312-acb2-3f3052ecb20b")
+		(property "Reference" "TP19"
+			(at 147.32 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "uUSB_VOUT"
+			(at 147.32 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+			(at 140.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f57759ed-156d-47a2-a388-6edba96493c9")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304"
+					(reference "TP19")
 					(unit 1)
 				)
 			)

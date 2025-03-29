@@ -3035,6 +3035,12 @@
 		(uuid "14961713-e6d0-4a38-b009-b0260b6fb97f")
 	)
 	(junction
+		(at 257.81 103.505)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18fb5d76-77d0-4b04-b8dc-5eccc1445dd2")
+	)
+	(junction
 		(at 111.76 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3045,6 +3051,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35f3e352-9417-4426-8f9b-03003bd03ef2")
+	)
+	(junction
+		(at 120.65 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "434d5136-b13b-4ced-96ae-22f5bcfe1346")
 	)
 	(junction
 		(at 121.92 58.42)
@@ -3119,6 +3131,12 @@
 		(uuid "85ca2352-7f54-410b-9a11-bcaec1c54ec5")
 	)
 	(junction
+		(at 22.225 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ba1df18-b1bb-4639-8747-c10fa95df97b")
+	)
+	(junction
 		(at 121.92 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3141,6 +3159,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5be1aa7-3ff5-43f3-a81f-12ed1795fd23")
+	)
+	(junction
+		(at 58.42 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6455733-d7f9-4dab-aea0-f5fc0770e4bf")
 	)
 	(junction
 		(at 22.225 91.44)
@@ -3177,6 +3201,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfd13704-df90-4a34-bad5-25f3c970410a")
+	)
+	(junction
+		(at 45.085 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed54a5f5-d376-44ce-8653-c025c87dec29")
 	)
 	(junction
 		(at 31.115 96.52)
@@ -3482,6 +3512,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 102.87) (xy 257.81 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285e0073-eba7-42e6-9e2e-cab220dd5910")
+	)
+	(wire
+		(pts
 			(xy 109.22 45.72) (xy 109.22 46.99)
 		)
 		(stroke
@@ -3492,17 +3532,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 104.14) (xy 257.81 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d5a985c-0b3a-4cd0-b0a3-e4e8e3202973")
-	)
-	(wire
-		(pts
-			(xy 54.61 49.53) (xy 60.96 49.53)
+			(xy 54.61 49.53) (xy 58.42 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3579,6 +3609,16 @@
 			(type default)
 		)
 		(uuid "3c67269c-fcda-4251-afa7-c36625c0d7f1")
+	)
+	(wire
+		(pts
+			(xy 251.46 106.68) (xy 254 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e442299-d47f-4f2b-9447-3d711be3f2e1")
 	)
 	(wire
 		(pts
@@ -3662,7 +3702,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 93.98) (xy 120.65 92.71)
+			(xy 120.65 92.71) (xy 120.65 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3739,6 +3779,16 @@
 			(type default)
 		)
 		(uuid "501b67ec-eef3-4dfb-be62-e39709435457")
+	)
+	(wire
+		(pts
+			(xy 257.81 103.505) (xy 257.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5049d340-7d50-40a1-87ee-1039184d81ef")
 	)
 	(wire
 		(pts
@@ -3842,13 +3892,23 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 81.28) (xy 54.61 81.28)
+			(xy 38.1 81.28) (xy 45.085 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5b2342c6-5535-4281-904e-175cd5810f21")
+	)
+	(wire
+		(pts
+			(xy 45.085 81.28) (xy 54.61 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b42a89d-96a5-43c2-935a-94b26282db8f")
 	)
 	(wire
 		(pts
@@ -3972,6 +4032,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 106.68) (xy 254 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d9bbb6-42ab-44d2-8c82-acae2df354f2")
+	)
+	(wire
+		(pts
 			(xy 109.22 54.61) (xy 109.22 59.69)
 		)
 		(stroke
@@ -3989,6 +4059,16 @@
 			(type default)
 		)
 		(uuid "897b545e-a882-4a1b-b90b-83045aea1d10")
+	)
+	(wire
+		(pts
+			(xy 254 103.505) (xy 257.81 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c35fbf-33eb-4985-b2bc-eae684efb3fd")
 	)
 	(wire
 		(pts
@@ -4112,6 +4192,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 93.98) (xy 120.65 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ac96d8-bcaa-4c51-a197-1b300b7e735f")
+	)
+	(wire
+		(pts
 			(xy 196.85 110.49) (xy 196.85 116.84)
 		)
 		(stroke
@@ -4119,6 +4209,16 @@
 			(type default)
 		)
 		(uuid "a3832a7c-b1a2-441a-81a8-44f78b65982c")
+	)
+	(wire
+		(pts
+			(xy 58.42 49.53) (xy 60.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a497f044-d6e9-440c-b344-0cabe054db65")
 	)
 	(wire
 		(pts
@@ -4199,6 +4299,16 @@
 			(type default)
 		)
 		(uuid "b954fb1a-bc28-4c65-9543-097bd54ef94b")
+	)
+	(wire
+		(pts
+			(xy 58.42 45.72) (xy 58.42 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb8ccbcc-4914-4f1f-9997-a4830954c877")
 	)
 	(wire
 		(pts
@@ -8283,7 +8393,6 @@
 	)
 	(label "VBUS_OUT"
 		(at 196.85 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8294,7 +8403,6 @@
 	)
 	(label "VBUS_OUT"
 		(at 123.19 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8305,7 +8413,6 @@
 	)
 	(label "ISNK_COARSE"
 		(at 129.54 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8316,7 +8423,6 @@
 	)
 	(label "VBUS_IN"
 		(at 121.92 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8327,7 +8433,6 @@
 	)
 	(label "VBUS_FET_EN"
 		(at 161.29 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8338,7 +8443,6 @@
 	)
 	(label "ISNK_FINE"
 		(at 109.22 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8349,7 +8453,6 @@
 	)
 	(label "VBUS_OUT"
 		(at 60.96 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8360,7 +8463,6 @@
 	)
 	(label "FAULT"
 		(at 191.77 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8371,7 +8473,6 @@
 	)
 	(label "SAFE_PWR_EN"
 		(at 161.29 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8382,7 +8483,6 @@
 	)
 	(label "VBUS_IN"
 		(at 214.63 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8393,7 +8493,6 @@
 	)
 	(label "VBUS_IN"
 		(at 106.68 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8404,7 +8503,6 @@
 	)
 	(label "VBUS_MIN"
 		(at 165.1 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8415,7 +8513,6 @@
 	)
 	(label "VBUS_IN"
 		(at 106.68 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8426,7 +8523,6 @@
 	)
 	(label "VBUS_MAX"
 		(at 73.66 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8437,7 +8533,6 @@
 	)
 	(label "ISNK_FINE"
 		(at 163.83 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8448,7 +8543,6 @@
 	)
 	(label "VBUS_MIN"
 		(at 91.44 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8459,7 +8553,6 @@
 	)
 	(label "VBUS_IN"
 		(at 123.19 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8470,7 +8563,6 @@
 	)
 	(label "VBUS_OUT"
 		(at 97.79 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8481,7 +8573,6 @@
 	)
 	(label "ISNK_COARSE"
 		(at 161.29 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8492,7 +8583,6 @@
 	)
 	(label "VBUS_FET_EN"
 		(at 106.68 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8503,7 +8593,6 @@
 	)
 	(label "VBUS_MAX"
 		(at 165.1 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8514,7 +8603,6 @@
 	)
 	(label "VBUS_IN"
 		(at 83.82 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8525,7 +8613,6 @@
 	)
 	(label "SAFE_PWR_EN"
 		(at 106.68 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8537,7 +8624,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 214.63 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8549,7 +8635,6 @@
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 204.47 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8561,7 +8646,6 @@
 	(hierarchical_label "SAFE_5V"
 		(shape output)
 		(at 121.92 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8573,7 +8657,6 @@
 	(hierarchical_label "INT"
 		(shape input)
 		(at 181.61 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8585,7 +8668,6 @@
 	(hierarchical_label "5V"
 		(shape output)
 		(at 38.1 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8597,7 +8679,6 @@
 	(hierarchical_label "3V3"
 		(shape output)
 		(at 92.71 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8609,7 +8690,6 @@
 	(hierarchical_label "5V_USB"
 		(shape input)
 		(at 31.115 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8621,7 +8701,6 @@
 	(hierarchical_label "5V_USB"
 		(shape input)
 		(at 37.465 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9671,6 +9750,73 @@
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.085 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eaeedf9-caa7-4f1f-acae-3637a71f8e0e")
+		(property "Reference" "TP14"
+			(at 47.625 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 47.625 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+			(at 50.165 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.165 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 45.085 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0c3503e-eec7-4f67-bd5e-4fcb366922d8")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -10901,6 +11047,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 22.225 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c6e2d3e-2453-4ad8-93a6-3b3f1799fef2")
+		(property "Reference" "TP13"
+			(at 18.923 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUCK_VOUT"
+			(at 18.923 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+			(at 22.225 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.225 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 22.225 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38d5714e-1b80-4b06-a1cf-bc8c6c6593ab")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_Dual_PMOS_G1S2G2D2S1D1")
 		(at 118.11 87.63 0)
 		(mirror x)
@@ -11543,6 +11754,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 95.885 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71c0ac6f-f53a-49d4-9e1c-4f5828ae902c")
+		(property "Reference" "TP15"
+			(at 122.555 97.9169 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SAFE_5V"
+			(at 122.555 100.4569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+			(at 115.57 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c006bd47-c8dd-47f7-9ff1-6274d3b409da")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 227.33 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "744875cb-4118-4454-a46e-44e91489b2a0")
+		(property "Reference" "TP10"
+			(at 229.87 72.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VBUS_IN"
+			(at 229.87 75.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+			(at 232.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6fda2a9-3354-4080-9967-89114550d48a")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 199.39 55.88 270)
 		(unit 1)
@@ -11888,6 +12233,71 @@
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 251.46 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f930b7e-10d3-4df1-b6ce-cc81c826e059")
+		(property "Reference" "TP11"
+			(at 248.158 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USBC_GND"
+			(at 248.158 103.505 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+			(at 251.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 251.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79579fee-43e3-4849-be7e-129d1375004e")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -12901,6 +13311,73 @@
 			(project "Cell-Characterization-Board"
 				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 58.42 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2853fb5-07ab-4eb2-b0fd-867323a27beb")
+		(property "Reference" "TP12"
+			(at 60.96 41.1479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VBUS_OUT"
+			(at 60.96 43.6879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00a17432-c19b-454c-b4bd-61375690b3dc")
+		)
+		(instances
+			(project "Cell-Characterization-Board"
+				(path "/8cf78a1b-eb7a-4166-aa75-ad898a030304/02e804c2-1162-421a-8f6e-0436cbda7935"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
