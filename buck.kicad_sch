@@ -2387,7 +2387,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 163.83 103.1748 0)
 			(effects
 				(font
@@ -2521,7 +2521,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 198.12 137.4648 0)
 			(effects
 				(font
@@ -2591,7 +2591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ExternalFootprints:SOIC127P600X175-8N"
 			(at 166.37 134.62 0)
 			(effects
 				(font
@@ -2600,7 +2600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.vishay.com/docs/67335/si4463cd.pdf"
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -2691,7 +2691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 206.756 148.844 90)
 			(effects
 				(font
@@ -2761,7 +2761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ExternalFootprints:CAPPM7343X310N"
 			(at 217.17 137.16 0)
 			(effects
 				(font
@@ -2831,7 +2831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 206.756 137.414 90)
 			(effects
 				(font
@@ -2901,7 +2901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 102.616 84.074 90)
 			(effects
 				(font
@@ -2969,7 +2969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 178.816 139.446 90)
 			(effects
 				(font
@@ -3039,7 +3039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 176.53 78.74 0)
 			(effects
 				(font
@@ -3173,7 +3173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.274 113.284 90)
 			(effects
 				(font
@@ -3384,7 +3384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 187.6552 148.59 0)
 			(effects
 				(font
@@ -3454,7 +3454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 192.7352 78.74 0)
 			(effects
 				(font
@@ -3524,7 +3524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ExternalFootprints:YQ30NL10SEFHTL"
 			(at 163.83 146.05 0)
 			(effects
 				(font
@@ -3592,7 +3592,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ExternalFootprints:PQ2617BHA150K"
 			(at 185.42 127 0)
 			(effects
 				(font
@@ -3601,7 +3601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/bourns_PQ2617BHA_datasheet-1159314.pdf"
 			(at 185.42 127 0)
 			(effects
 				(font
@@ -3728,7 +3728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ExternalFootprints:CAPPM7343X310N"
 			(at 201.93 74.93 0)
 			(effects
 				(font
@@ -3777,7 +3777,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d4e14df2-ed67-42f3-be6f-e7e6b64b15b1")
 		(property "Reference" "R52"
@@ -3798,7 +3798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 164.846 120.904 90)
 			(effects
 				(font

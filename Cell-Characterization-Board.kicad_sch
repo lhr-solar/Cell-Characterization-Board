@@ -5657,7 +5657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 133.604 171.069 90)
 			(effects
 				(font
@@ -5856,7 +5856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 58.674 48.514 90)
 			(effects
 				(font
@@ -6408,7 +6408,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 142.494 171.069 90)
 			(effects
 				(font
@@ -6913,7 +6913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ExternalFootprints:SW_1825910-6-4"
 			(at 44.45 52.07 0)
 			(effects
 				(font
@@ -7734,7 +7734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ExternalFootprints:128x64OLED"
 			(at 24.13 107.315 0)
 			(effects
 				(font
@@ -7810,7 +7810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ExternalFootprints:SW_1825910-6-4"
 			(at 151.13 177.165 0)
 			(effects
 				(font
@@ -8207,7 +8207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ExternalFootprints:SW_1825910-6-4"
 			(at 134.62 177.165 0)
 			(effects
 				(font
