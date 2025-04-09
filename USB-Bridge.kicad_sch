@@ -2354,6 +2354,7 @@
 	)
 	(label "DTR"
 		(at 183.515 80.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2364,6 +2365,7 @@
 	)
 	(label "DTR"
 		(at 225.425 70.485 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2374,6 +2376,7 @@
 	)
 	(label "RTS"
 		(at 183.515 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2384,6 +2387,7 @@
 	)
 	(label "RTS"
 		(at 225.425 83.185 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2571,6 +2575,7 @@
 	(hierarchical_label "UART_RXD"
 		(shape output)
 		(at 178.435 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2582,6 +2587,7 @@
 	(hierarchical_label "UART_TXD"
 		(shape output)
 		(at 178.435 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2593,6 +2599,7 @@
 	(hierarchical_label "ESP_EN"
 		(shape input)
 		(at 249.555 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2604,6 +2611,7 @@
 	(hierarchical_label "GPIO0"
 		(shape output)
 		(at 249.555 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2615,6 +2623,7 @@
 	(hierarchical_label "MICRO_USB_5V"
 		(shape output)
 		(at 104.775 78.105 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

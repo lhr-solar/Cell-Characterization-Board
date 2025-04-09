@@ -1,4 +1,4 @@
-23323909998562603
+23336112935676012
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55664,12 +55664,40 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 ExternalFootprints
+128x64OLED
+
+
+0
+4
+4
+ExternalFootprints
+BAT_1121
+
+
+0
+2
+2
+ExternalFootprints
+CAPPM7343X310N
+Case Code D
+Capacitor Polarised
+0
+2
+2
+ExternalFootprints
 MAX14611ETD_T
 
 MAX14611ETD+T 
 0
 15
 15
+ExternalFootprints
+PQ2617BHA150K
+27.90mm x 19.80mm x 19.0mm
+Inductor
+0
+3
+3
 ExternalFootprints
 QFN50P400X400X60-25N-D
 24-pin QFN-ren3
@@ -55684,6 +55712,13 @@ Diode
 0
 3
 3
+ExternalFootprints
+SOIC127P600X175-8N
+SOIC (NARROW): 8-LEAD_1
+Undefined or Miscellaneous
+0
+8
+8
 ExternalFootprints
 SOIC127P600X175-16N
 MCP3304-CI/SL
@@ -55720,6 +55755,13 @@ Integrated Circuit
 4
 4
 ExternalFootprints
+SW_1825910-6-4
+
+
+0
+4
+4
+ExternalFootprints
 THRMC1608X95N
 NCP18XH103F03RB-1
 Thermistor
@@ -55733,6 +55775,13 @@ Relay or Contactor
 0
 8
 8
+ExternalFootprints
+YQ30NL10SEFHTL
+TO-263L
+Schottky Diode
+0
+4
+4
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
