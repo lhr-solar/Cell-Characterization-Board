@@ -6696,7 +6696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-0137_T1433+2C_MXM"
+		(property "Footprint" "ExternalFootprints:MAX14611ETD_T"
 			(at 81.28 127 0)
 			(effects
 				(font

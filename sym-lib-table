@@ -16,4 +16,5 @@
   (lib (name "NCV8165ML330TCG")(type "KiCad")(uri "${KIPRJMOD}/External Components/NCV8165ML330TCG/NCV8165ML330TCG.kicad_sym")(options "")(descr ""))
   (lib (name "2025-02-22_18-32-49")(type "KiCad")(uri "${KIPRJMOD}/External Components/MAX14611ETD_T/2025-02-22_18-32-49.kicad_sym")(options "")(descr ""))
   (lib (name "SSD1306")(type "KiCad")(uri "${KIPRJMOD}/External Components/SSD1306/SSD1306.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4125-GF-A-0190_REVA2")(type "KiCad")(uri "${KIPRJMOD}/External Components/USB4125-GF-A-0190/USB4125-GF-A-0190_REVA2.kicad_sym")(options "")(descr ""))
 )
